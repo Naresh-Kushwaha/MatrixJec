@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. A.P. Singh",
+    "photo": "https://randomuser.me/api/portraits/men/10.jpg",
+    "department": "Computer Science",
+    "designation": "Professor & HOD",
+    "email": "apsingh@university.edu",
+    "phone": "+91-9876543210",
+    "officeHours": "Mon-Wed 2:00–4:00 PM",
+    "linkedin": "https://linkedin.com/in/apsingh",
+    "googleScholar": "https://scholar.google.com/apsingh",
+    "bio": "Expert in AI and Machine Learning.",
+    "interests": ["Deep Learning", "Medical AI", "Neural Networks"],
+    "awards": ["Best Researcher 2022", "AI Innovation Award"],
+    "researchPapers": [
+      {
+        "title": "Deep Learning for Healthcare",
+        "year": 2022,
+        "journal": "IEEE Journal",
+        "link": "https://example.com/paper1"
+      },
+      {
+        "title": "AI in Genomics",
+        "year": 2023,
+        "journal": "Nature AI",
+        "link": "https://example.com/paper2"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Meena Sharma",
+    "photo": "https://randomuser.me/api/portraits/women/11.jpg",
+    "department": "Electronics",
+    "designation": "Associate Professor",
+    "email": "meena@university.edu",
+    "phone": "+91-9821345678",
+    "officeHours": "Tue-Thu 3:00–5:00 PM",
+    "linkedin": "https://linkedin.com/in/meenasharma",
+    "googleScholar": "https://scholar.google.com/meenasharma",
+    "bio": "Focus on IoT and Embedded Systems.",
+    "interests": ["IoT", "VLSI", "Microcontrollers"],
+    "awards": ["Innovative Educator Award"],
+    "researchPapers": [
+      {
+        "title": "IoT-based Smart Grids",
+        "year": 2021,
+        "journal": "Elsevier",
+        "link": "https://example.com/paper3"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dr. Rakesh Verma",
+    "photo": "https://randomuser.me/api/portraits/men/12.jpg",
+    "department": "Mechanical Engineering",
+    "designation": "Professor",
+    "email": "rakesh@university.edu",
+    "phone": "+91-9012345678",
+    "officeHours": "Wed-Fri 1:00–3:00 PM",
+    "linkedin": "https://linkedin.com/in/rakeshverma",
+    "googleScholar": "https://scholar.google.com/rakeshverma",
+    "bio": "Specialist in thermodynamics and fluid mechanics.",
+    "interests": ["Heat Transfer", "CAD/CAM", "3D Printing"],
+    "awards": [],
+    "researchPapers": [
+      {
+        "title": "Computational Fluid Dynamics Simulation",
+        "year": 2020,
+        "journal": "Springer",
+        "link": "https://example.com/paper4"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Dr. Neha Jain",
+    "photo": "https://randomuser.me/api/portraits/women/14.jpg",
+    "department": "Physics",
+    "designation": "Assistant Professor",
+    "email": "neha@university.edu",
+    "phone": "+91-9123456780",
+    "officeHours": "Mon-Fri 11:00 AM–1:00 PM",
+    "linkedin": "https://linkedin.com/in/nehajain",
+    "googleScholar": "https://scholar.google.com/nehajain",
+    "bio": "Research in quantum physics and materials science.",
+    "interests": ["Quantum Mechanics", "Nanotechnology"],
+    "awards": [],
+    "researchPapers": [
+      {
+        "title": "Quantum Entanglement in Solid-State Systems",
+        "year": 2023,
+        "journal": "Physical Review Letters",
+        "link": "https://example.com/paper5"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dr. Suresh Patel",
+    "photo": "https://randomuser.me/api/portraits/men/15.jpg",
+    "department": "Civil Engineering",
+    "designation": "Professor",
+    "email": "suresh@university.edu",
+    "phone": "+91-9000000001",
+    "officeHours": "Thu-Fri 10:00 AM–12:00 PM",
+    "linkedin": "https://linkedin.com/in/sureshpatel",
+    "googleScholar": "https://scholar.google.com/sureshpatel",
+    "bio": "Specializes in structural analysis and smart cities.",
+    "interests": ["Smart Cities", "Sustainable Design"],
+    "awards": [],
+    "researchPapers": [
+      {
+        "title": "Resilient Infrastructure Planning",
+        "year": 2019,
+        "journal": "ACM Civil Engineering",
+        "link": "https://example.com/paper6"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Dr. Priya Nair",
+    "photo": "https://randomuser.me/api/portraits/women/16.jpg",
+    "department": "Biotechnology",
+    "designation": "Associate Professor",
+    "email": "priya@university.edu",
+    "phone": "+91-9234567890",
+    "officeHours": "Tue-Thu 2:00–4:00 PM",
+    "linkedin": "https://linkedin.com/in/priyanair",
+    "googleScholar": "https://scholar.google.com/priyanair",
+    "bio": "Biotech innovations in plant genetics.",
+    "interests": ["CRISPR", "Genomics", "Bioinformatics"],
+    "awards": ["Young Scientist Award"],
+    "researchPapers": [
+      {
+        "title": "CRISPR-based Genome Editing in Rice",
+        "year": 2022,
+        "journal": "Nature Biotechnology",
+        "link": "https://example.com/paper7"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Dr. Arvind Kumar",
+    "photo": "https://randomuser.me/api/portraits/men/17.jpg",
+    "department": "Mathematics",
+    "designation": "Professor",
+    "email": "arvind@university.edu",
+    "phone": "+91-9120000000",
+    "officeHours": "Mon-Fri 9:00–11:00 AM",
+    "linkedin": "https://linkedin.com/in/arvindkumar",
+    "googleScholar": "https://scholar.google.com/arvindkumar",
+    "bio": "Applied mathematics and machine learning.",
+    "interests": ["Numerical Analysis", "Statistics", "ML"],
+    "awards": [],
+    "researchPapers": [
+      {
+        "title": "Statistical Approaches in ML Algorithms",
+        "year": 2023,
+        "journal": "Mathematical Computation Journal",
+        "link": "https://example.com/paper8"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Dr. Anjali Deshmukh",
+    "photo": "https://randomuser.me/api/portraits/women/18.jpg",
+    "department": "Chemistry",
+    "designation": "Assistant Professor",
+    "email": "anjali@university.edu",
+    "phone": "+91-9011111111",
+    "officeHours": "Wed-Fri 1:00–3:00 PM",
+    "linkedin": "https://linkedin.com/in/anjalideshmukh",
+    "googleScholar": "https://scholar.google.com/anjalideshmukh",
+    "bio": "Organic and environmental chemistry.",
+    "interests": ["Green Chemistry", "Catalysts"],
+    "awards": [],
+    "researchPapers": [
+      {
+        "title": "Organic Catalysts in Environmental Cleanup",
+        "year": 2020,
+        "journal": "ACS Publications",
+        "link": "https://example.com/paper9"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Dr. Mohan Raj",
+    "photo": "https://randomuser.me/api/portraits/men/19.jpg",
+    "department": "Information Technology",
+    "designation": "Professor",
+    "email": "mohan@university.edu",
+    "phone": "+91-9090909090",
+    "officeHours": "Mon-Wed 3:00–5:00 PM",
+    "linkedin": "https://linkedin.com/in/mohanraj",
+    "googleScholar": "https://scholar.google.com/mohanraj",
+    "bio": "Big data and cybersecurity researcher.",
+    "interests": ["Cybersecurity", "Big Data", "Hadoop"],
+    "awards": [],
+    "researchPapers": [
+      {
+        "title": "Security in Distributed Systems",
+        "year": 2021,
+        "journal": "IEEE Transactions",
+        "link": "https://example.com/paper10"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Dr. Kavita Rao",
+    "photo": "https://randomuser.me/api/portraits/women/20.jpg",
+    "department": "Economics",
+    "designation": "Professor",
+    "email": "kavita@university.edu",
+    "phone": "+91-9333333333",
+    "officeHours": "Tue-Fri 2:00–4:00 PM",
+    "linkedin": "https://linkedin.com/in/kavitarao",
+    "googleScholar": "https://scholar.google.com/kavitarao",
+    "bio": "Development economics and policy studies.",
+    "interests": ["Microfinance", "Public Policy", "Data Analysis"],
+    "awards": ["Best Economist 2023"],
+    "researchPapers": [
+      {
+        "title": "Women Empowerment through Microfinance",
+        "year": 2023,
+        "journal": "Economic Policy Review",
+        "link": "https://example.com/paper11"
+      }
+    ]
+  }
+]

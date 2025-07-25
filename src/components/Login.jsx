@@ -18,6 +18,7 @@ export default function Login(){
     e.preventDefault(); // Prevent the default form submission behavior
 
     // Data to be sent to the API
+    navigate(`/${selectedCheckbox}Profile`);
     const data = {
       username,
       password,
@@ -25,30 +26,30 @@ export default function Login(){
     if(selectedCheckbox==''){
       alert("Select CheckBox")
     }
-    try {
+    // try {
       
 
-      const response = await axios.post(`http://localhost:8080/api/${selectedCheckbox}/login`, data);
+      // const response = await axios.post(`http://localhost:8080/api/${selectedCheckbox}/login`, data);
       // const response = await axios.post(`https://sih2024-0pz6.onrender.com/${selectedCheckbox}/login`, data);
 
-      console.log('Success:', response.data);
+      // console.log('Success:', response.data);
 
-      login(); 
-      localStorage.setItem('data',JSON.stringify(data));
+      // login(); 
+      // localStorage.setItem('data',JSON.stringify(data));
    
       
 
-      navigate(`/${selectedCheckbox}Profile`);
-    } catch (error) {
+      
+    // } catch (error) {
   
-      if (error.response) {
-        console.error('Error:', error.response.data);
-        alert("Incorrect Creditionals")
-      }
-      else {
-        console.error('Error:', error.message);
-      }
-    }
+    //   if (error.response) {
+    //     console.error('Error:', error.response.data);
+    //     alert("Incorrect Creditionals")
+    //   }
+    //   else {
+    //     console.error('Error:', error.message);
+    //   }
+    // }
   };
 
 

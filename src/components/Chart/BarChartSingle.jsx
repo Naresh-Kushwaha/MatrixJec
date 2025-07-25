@@ -3,13 +3,14 @@ import { BarChart } from '@mui/x-charts/BarChart';
 
 
 const xLabels = [
-  '2018',
+  
   '2019',
   '2020',
   '2021',
   '2022',
   '2023',
   '2024',
+  '2025',
 ];
 
 export default function BarChartSingle( props) {

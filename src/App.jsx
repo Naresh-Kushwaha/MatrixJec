@@ -30,67 +30,80 @@ import GeneratMeeting from './components/Admin/GenerateMeeting';
 import AdminDashboard from './components/Admin/CreateStudent';
 // import Evaluation from './KaranFrontend/EvaluationForm';
 
+import ProfessorDetail from './components/pages/ProfessorDetail';
+
+
 
 function App() {
   return (
     <Router>
-    <Routes>
-      <Route path="/login" element={<Login></Login>} />
-      <Route path="/facultyHome" element={<FacultyHomePage></FacultyHomePage>} />
-      {/* <Route path='/studentProfile' element={<StudentProfile></StudentProfile>}></Route> */}
-      <Route  path="/studentProfile" element={
-      <ProtectedRoute>
-        <StudentProfile></StudentProfile>
-        
-        </ProtectedRoute>}/>
-     
-      <Route  path="/facultyProfile" element={
-      
-        <FacultyProfile></FacultyProfile>}
-        
-       />
-       
-        
-        <Route  path="/adminProfile" element={
-          
-      <ProtectedRoute>
-       <AdminProfile></AdminProfile>
-        
-        </ProtectedRoute>}/>
-
-
-        <Route  path="/" element={
-          
+      <Routes>
+        <Route path="/login" element={<Login></Login>} />
+        <Route path="/facultyHome" element={<FacultyHomePage></FacultyHomePage>} />
+        {/* <Route path='/studentProfile' element={<StudentProfile></StudentProfile>}></Route> */}
+        <Route path="/studentProfile" element={
           <ProtectedRoute>
-           <HomePage></HomePage>
-            
-            </ProtectedRoute>}/>
+            <StudentProfile></StudentProfile>
 
-            <Route path="/aboutus" element={<AboutUs></AboutUs>} />
-            <Route path="/academics" element={<Academic></Academic>} />
-            <Route path="/administration" element={<Administration></Administration>} />
-            <Route path="/research" element={<Research></Research>} />
+          </ProtectedRoute>} />
 
-            <Route path="/chart" element={<BasicBars></BasicBars>} />
-            <Route path="/addpublication" element={<AddPublication></AddPublication>} />
-            <Route path="/seepublication" element={<SeePublication></SeePublication>} />
-            <Route path="/lectures" element={<Lectures></Lectures>} />
-            <Route path="/feedback" element={<Feedback></Feedback>} />
-            <Route path="/studentprofile" element={<StudentProfile></StudentProfile>} />
-            <Route path="/calender" element={<UniversityCalendar></UniversityCalendar>} />
-            <Route path="/studentperformance" element={<StudentPerformance></StudentPerformance>} />
-            <Route path="/result" element={<ResultData></ResultData>} />
-            <Route path="/eventcontroler" element={<EventControler></EventControler>} />
-            <Route path="/adminprofile" element={<AdminProfile></AdminProfile>} />
-            <Route path="/connectmeeting" element={<ConnectMeeting></ConnectMeeting>} />
-            <Route path="/generatemeeting" element={<GeneratMeeting></GeneratMeeting>} />
-            <Route path="/admindashbord" element={<AdminDashboard></AdminDashboard>} />
-            {/* <Route path="/annualevaluation" element={<Evaluation></Evaluation>}></Route>
+        <Route path="/facultyProfile" element={
+
+          <FacultyProfile></FacultyProfile>}
+
+        />
+
+
+        <Route path="/adminProfile" element={
+
+          <ProtectedRoute>
+            <AdminProfile></AdminProfile>
+
+          </ProtectedRoute>} />
+
+
+        <Route path="/" element={
+
+          <ProtectedRoute>
+            <HomePage></HomePage>
+
+          </ProtectedRoute>} />
+
+        <Route path="/aboutus" element={<AboutUs></AboutUs>} />
+        <Route path="/academics" element={<Academic></Academic>} />
+        <Route path="/administration" element={<Administration></Administration>} />
+        <Route path="/research" element={<Research></Research>} />
+
+        <Route path="/chart" element={<BasicBars></BasicBars>} />
+        <Route path="/addpublication" element={<AddPublication></AddPublication>} />
+        <Route path="/seepublication" element={<SeePublication></SeePublication>} />
+        <Route path="/lectures" element={<Lectures></Lectures>} />
+        <Route path="/feedback" element={<Feedback></Feedback>} />
+        <Route path="/studentprofile" element={<StudentProfile></StudentProfile>} />
+        <Route path="/calender" element={<UniversityCalendar></UniversityCalendar>} />
+        <Route path="/studentperformance" element={<StudentPerformance></StudentPerformance>} />
+        <Route path="/result" element={<ResultData></ResultData>} />
+        <Route path="/eventcontroler" element={<EventControler></EventControler>} />
+        <Route path="/adminprofile" element={<AdminProfile></AdminProfile>} />
+        <Route path="/connectmeeting" element={<ConnectMeeting></ConnectMeeting>} />
+        <Route path="/generatemeeting" element={<GeneratMeeting></GeneratMeeting>} />
+        <Route path="/admindashbord" element={<AdminDashboard></AdminDashboard>} />
+
+
+        {/* <Route path="/professor/:id" element={<ProfessorDetail />} />
+        <Route path="/research/:id" element={<ProfessorDetail />} /> */}
+
+        <Route path="/" element={<Research />} />
+        <Route path="/professors/:id" element={<ProfessorDetail />} />
+
+
+        {/* <Route path="/annualevaluation" element={<Evaluation></Evaluation>}></Route>
+
              */}
 
       </Routes>
-      
-  </Router>
+
+    </Router>
   );
 }
 
