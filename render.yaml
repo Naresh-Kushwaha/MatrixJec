@@ -1,0 +1,10 @@
+version: 1
+services:
+  - type: web
+    name: my-react-app
+    env: docker
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run preview
+    autoDeploy: true
+    region: oregon
